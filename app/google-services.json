@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "455722209100",
+    "project_id": "osmo-96fe9",
+    "storage_bucket": "osmo-96fe9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455722209100:android:7860a6ee2f2f03a64289e9",
+        "android_client_info": {
+          "package_name": "com.example.osmo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "455722209100-hsmt2bpfgf3s72gm4mij9e71eiogaef4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.osmo",
+            "certificate_hash": "22809adf6c004499ff71a7c305613c4325738182"
+          }
+        },
+        {
+          "client_id": "455722209100-7djtudp3l45d9dgtosr515sgu7a49i33.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsgj7mfO1Kq__vPuykMiIuFpH9KL5OzZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "455722209100-7djtudp3l45d9dgtosr515sgu7a49i33.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_text_expand_animation_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FAQ"
+    android:background="@drawable/bg"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+
+        <Button
+            android:id="@+id/faqback"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+
+            android:background="@drawable/back">
+
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="150dp"
+            android:background="@color/trans"
+            android:padding="10dp"
+            android:fontFamily="@font/andika_new_basic_bold"
+            android:text="FAQ"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+        </Button>
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/sas"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+
+            <com.ms.square.android.expandabletextview.ExpandableTextView
+                android:layout_width="match_parent"
+                android:id="@+id/expand_textview"
+                xmlns:expandableTextView="http://schemas.android.com/apk/res-auto"
+                expandableTextView:animDuration="1000"
+                android:padding="10dp"
+                android:background="@drawable/recyler"
+                expandableTextView:maxCollapsedLines="4"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/expandable_text"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/andika_new_basic_bold"
+                    android:textSize="15dp">
+
+                </TextView>
+                <ImageButton
+                    android:id="@+id/expand_collapse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right">
+
+                </ImageButton>
+
+
+
+
+            </com.ms.square.android.expandabletextview.ExpandableTextView>
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

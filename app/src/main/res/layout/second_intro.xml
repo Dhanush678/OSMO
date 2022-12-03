@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="390dp"
+        android:layout_height="600dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/round"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp">
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/imgTourismHr"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/second"/>
+
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="Smart Textiles Sense how the User are Moving"
+            android:fontFamily="@font/acme"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:layout_marginStart="170dp"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="19th Nov 2022 "
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:fontFamily="@font/acme"
+            android:layout_marginTop="70dp"
+            android:layout_marginStart="170dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lorem Ispum"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:fontFamily="@font/acme"
+            android:layout_marginTop="70dp"
+            android:layout_marginStart="270dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="@color/white"
+            android:text="the structure measures 707.75 feet (216 metres) on each side and was originally 471 feet (143 metres) high. The southernmost and last pyramid to be built was that of Menkaure (Greek: Mykerinus), the fifth king of the 4th dynasty; each side measures 356.5 feet (109 metres), and the structure’s completed height was 218 feet (66 metres). All three pyramids were plundered both internally and externally in ancient and medieval times. Thus, the grave goods originally deposited in the burial chambers are missing, and the pyramids no longer reach their original heights because they have been almost entirely stripped of their outer casings of smooth white limestone; the Great Pyramid, for example, is now only 451.4 feet (138 metres) high. That of Khafre retains the outer limestone casing only at its topmost portion. Constructed near each pyramid was a mortuary temple, which was linked via a sloping causeway to a valley temple on the edge of the Nile floodplain. "
+            android:layout_marginTop="160dp"
+            android:textSize="16dp"
+            android:padding="4dp"
+            android:fontFamily="@font/acme"
+            android:textStyle="normal"
+            android:textAlignment="textStart">
+
+        </TextView>
+    </RelativeLayout>
+
+
+
+
+
+
+
+</RelativeLayout>
+

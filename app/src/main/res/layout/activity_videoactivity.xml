@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".videoactivity">
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/trans"
+        android:fontFamily="@font/acme"
+        android:text="Daily News"
+        android:textColor="@color/white"
+        android:textSize="26dp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/next2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/hamburger">
+
+    </Button>
+
+
+    <RelativeLayout
+        android:layout_width="330dp"
+        android:layout_height="600dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/mainborder">
+        <RelativeLayout
+            android:layout_width="270dp"
+            android:layout_height="240dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"
+            >
+
+            <VideoView
+                android:id="@+id/video"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                />
+
+        </RelativeLayout>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="260dp"
+            android:fontFamily="@font/andika_new_basic_bold"
+            android:text="Smart Textiles Sense How Their"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Users Are Moving"
+            android:textColor="@color/white"
+            android:layout_marginTop="285dp"
+            android:fontFamily="@font/andika_new_basic_bold"
+            android:textSize="20dp"
+            android:layout_marginStart="75dp"
+            android:textStyle="bold"
+            android:textAlignment="center">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  They used this process to create a “smart” shoe and mat and then built a hardware and software system to measure and interpret data from the pressure sensors in real-time. The machine-learning system predicted motions and yoga poses performed by an individual standing on the smart textile mat with about 99 percent accuracy.Using a novel fabrication process,"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:fontFamily="@font/acme"
+            android:textAlignment="center"
+            android:layout_marginTop="330dp">
+
+        </TextView>
+        <RelativeLayout
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:layout_marginTop="530dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/round">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Theme"
+                android:textSize="12dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/acme"
+                android:layout_marginStart="30dp"
+                android:textColor="#1C0B39">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Beyond Earth"
+                android:textSize="12dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/acme"
+                android:layout_marginStart="20dp"
+                android:textColor="@color/white">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Image Credits"
+                android:textSize="12dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/acme"
+                android:layout_marginStart="190dp"
+                android:textColor="#1C0B39">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lorem Ipsum"
+                android:textSize="12dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/acme"
+                android:layout_marginStart="190dp"
+                android:textColor="@color/white">
+
+            </TextView>
+
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+
+        android:layout_alignParentBottom="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Swipe Left Right To Go To Next Article"
+            android:textColor="@color/white">
+
+        </TextView>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

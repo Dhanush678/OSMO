@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".privacy">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+
+        <Button
+            android:id="@+id/comeback"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+
+            android:background="@drawable/back">
+
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="80dp"
+            android:background="@color/trans"
+            android:padding="10dp"
+            android:fontFamily="@font/allerta"
+            android:text="Privacy and Policy"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+        </Button>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg"
+        android:layout_marginTop="80dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="If you collect any personal data from individuals, then there's a good chance you'll need a Privacy Policy for your website or mobile app.
+
+A Privacy Policy is a key legal document which describes your company's data processing practices. This article will break down how a Privacy Policy works and how you can create a Privacy Policy for your own website or mobile app.
+A privacy policy is a statement or legal document (in privacy law) that discloses some or all of the ways a party gathers, uses, discloses, and manages a customer or client's data. Personal information can be anything that can be used to identify an individual, not limited to the person's name, address, date of birth, marital status, contact information, ID issue, and expiry date, financial records, credit information, medical history, where one travels, and intentions to acquire goods and services."
+            android:padding="20dp"
+            android:fontFamily="@font/acme"
+            android:textColor="@color/white"
+            android:textStyle="normal"
+            android:textSize="20dp">
+
+        </TextView>
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".TermsandConditions">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+
+        <Button
+            android:id="@+id/comeback2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+
+            android:background="@drawable/back">
+
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="80dp"
+            android:background="@color/trans"
+            android:padding="10dp"
+            android:fontFamily="@font/allerta"
+            android:text="Terms and Conditions"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+        </Button>
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terms and conditions are the vital details that businesses put in place to ensure that they protect their rights. However, you should also ensure that they are legal, enforceable,and serve their intended purpose. Otherwise, you leave your company exposed to legal liabilities or unwanted consequences.Terms and conditions are the vital details that businesses put in place to ensure that they protect their rights. However, you should also ensure that they are legal, enforceable, and serve their intended purpose. Otherwise,
+            you leave your company exposed to legal liabilities or unwanted consequences.Terms and conditions are part of a that ensure parties understand their contractual rights and obligations. Parties draft them into a legal contract, also called a legal agreement, in accordance with local, state, and federal contract laws. They set important boundaries that all contract principals must uphold."
+            android:padding="20dp"
+            android:fontFamily="@font/acme"
+            android:textColor="@color/white"
+            android:textStyle="normal"
+            android:textSize="20dp">
+
+        </TextView>
+    </ScrollView>
+
+
+</RelativeLayout>
